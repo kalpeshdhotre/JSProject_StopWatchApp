@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&display=swap');
+
+.container {
+    width: 400px;
+    height: 500px;
+    border: solid black;
+    font-size: large;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    margin: auto;    
+    justify-content: center;
+    color: #fff;
+    border-radius: 15px;    
+    margin-top: 25%;
+}
+
+.container h1{
+    text-decoration: underline;
+    margin: auto;
+    font-family: Raleway;
+}
+
+.container h2{
+    margin: auto;
+    font-family: Noto Sans Mono;
+    font-size: 50px;
+}
+
+.controls button{
+    font-size: large;
+    font-family: Raleway;
+}
+
+.controls {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;    
+}
