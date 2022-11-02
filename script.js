@@ -48,6 +48,7 @@ function pauseCounter() {
     clearInterval(intervalSesson);
     pauseButton.disabled = true;
     startButton.disabled = false;
+    document.querySelector(".startBtn").innerHTML = `Resume`;
 }
 
 function resetCounter() {
@@ -61,4 +62,5 @@ function resetCounter() {
     startButton.disabled = false;
     pauseButton.disabled = true;
     resetButton.disabled = true;
+    document.querySelector(".startBtn").innerHTML = `Start`;
 }
