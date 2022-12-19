@@ -1,0 +1,16 @@
+
+#textBox{
+     height: 200px;
+     width: 300px;
+     font-size: 14px;
+}
+
+.container{
+     margin: auto;
+     width: 50%;
+     border: 3px solid #4d4d4d;
+     padding: 10px;
+     text-align: center;     
+     color: aqua;
+     background-color: #4d4d4d;
+}
