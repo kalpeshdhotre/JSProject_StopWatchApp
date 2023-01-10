@@ -17,14 +17,14 @@ let secs = 0;
 let intervalSesson;
 
 function displayTime() {
-    console.log("Test out");
+    // console.log("Test out");
     intervalSesson = setInterval(displayTimeOnPage, 10);
     startButton.disabled = true;
     pauseButton.disabled = false;
     resetButton.disabled = false;
 }
 
-function displayTimeOnPage() {
+function displayTimeOnPage(){
     console.log("Test");
     // let cntr = 0;
     miliSec = miliSec + 1;
